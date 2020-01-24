@@ -1,0 +1,188 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0em;
+    padding: 0em;
+}
+.container {
+    text-align: center;
+    padding: .6em 1.0 em;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0em;
+}
+.hide-mobile {
+    display: none;
+}
+.drop-btn {
+    display: none;
+}
+section {
+    width: 98%;
+    text-align: center;
+    margin: 0 auto;
+    margin-left: 1.5%;
+}
+
+.menu {
+    width: 25px;
+    margin: 20%;
+}
+.title {
+    color: skyblue;
+    margin-left: 3%;
+}
+.blue-container {
+    width: 100%;
+    text-align: center;
+    background-color: #f6f6f6;
+}
+h1 {
+    color: skyblue;
+    font-size:  x-large;
+    font-weight: bold;
+}
+.blue-container img {
+    width: 30%;
+}
+.blue-container ul li h3 {
+    font-style: italic;
+    font-weight: 900;
+    font-size: large;
+}
+.blue-container ul li p {
+    font-size: small;
+    font-weight: 600;
+    font-style: italic;
+}
+.blue-container ul li a {
+    font-size: small;
+    font-weight: 700;
+    font-style: italic;
+    color: blue;
+}
+.footer-container {
+    width: 100%;
+    background: #3d444a;
+
+}
+.grey-container  {
+    display: flex;
+    justify-content: space-between;
+
+}
+.drop-btn {
+    display: flex;
+    justify-content: space-between;
+}
+ul.service-down {
+    text-align: center;
+    margin: auto;
+    color: skyblue;
+}
+ul.service-down li {
+    display: inline-block;
+    justify-content: space-between;
+    
+}
+ul.service-down li a {
+    color: blue;
+
+}
+
+ul.footer-link {
+    margin: 0 auto;
+}
+ul.footer-link li {
+    display: inline-block;
+}
+ul.footer-link li a {
+    color: blue;
+}
+.copy {
+    margin: 0 auto;
+    display: inline-flexbox;
+    justify-content: space-between;
+}
+nav ul {
+    position: fixed;
+    width: 80%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: rgb(36,41,44);
+    height: 100%;
+    z-index: 9;
+    padding-top: 1m;
+    display: block;
+    margin-bottom: 6em;
+    margin-top: -0.56em;
+    font-size: small;
+}
+nav ul li {
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    padding: 1em 2em;
+    background-color: rgb(52,59,63);
+    margin: 0 auto 0;
+    line-height: 1em;
+}
+nav ul li a {
+    text-align: left;
+    color: white;
+    background-color: rgb(52,59,63);
+    text-decoration: none
+}
+nav ul li a:hover {
+    background-color: skyblue;
+    width: 50%;
+}
+
+nav.drop-menu {
+    position: fixed;
+    width: 55%;
+    top: 0;
+    right: 0;
+    text-align: left;
+    background: rgb(36,41,44);
+    height: 100%;
+    z-index: 9;
+    padding: top 4em;
+    display: grid;
+    font-size: smaller;
+    margin-bottom: 0;
+    line-height: 0;
+
+}
+nav.drop-menu li {
+    text-align: left;
+    color: skyblue;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 2em;
+    background-color: rgb(52,59,63);
+    color: skyblue;
+    line-height: 2%;
+}
+nav.drop-menu ul li a {
+    color: skyblue;
+    text-decoration: none;
+}
+.exit-btn img {
+    width: 30px;
+    cursor: pointer;
+}
+
+
+
+
